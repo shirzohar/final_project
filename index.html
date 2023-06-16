@@ -1,0 +1,121 @@
+<!----- <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet"  href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="jew">MyJewelry</h1>
+        <div id="cart">
+            <img src="/pg.png" alt="עגלת קניות">
+            <a href="carti.html"  class="cart-link">סל קניות</a>
+            
+            
+            <ul id="cart-items"></ul>
+        </div>
+    </header>
+
+<h2 class="i">התכשיטים שלנו</h2>
+
+    <section id="items">
+        
+        <div class="item">
+            <h3>שרשראות</h3>
+            <img src="/nek.jpg" alt="שרשראות">
+            <p>Description of item 1.</p>
+            <button onclick="addToCart('Item 1')">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <h3>צמידים</h3>
+            <img src="/tsamid.jpg" alt="שרשראות">
+            <p>Description of item 2.</p>
+            <button onclick="addToCart('Item 2')">Add to Cart</button>
+        </div>
+
+        <div class="item">
+            <h3>טבעות</h3>
+            <img src="/ring.jpg" alt="טבעות">
+            <p>Description of item 3.</p>
+            <button onclick="addToCart('Item 3')">Add to Cart</button>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>--->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar">
+        <div class="nav">
+            <img src="/dark-logo.png" class="brand-logo"  alt="">
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="search brand, product">
+                    <button class="search-btn">search</button>
+                </div>
+                <a href="#"><img src="user.png" alt=""></a>
+                <a href="#"><img src="cart.png" alt=""></a>
+
+            </div>
+        </div>
+    </nav>
+<br>
+<br>
+    
+
+
+<h2 class="i">התכשיטים שלנו</h2>
+<br>
+<br>
+
+
+<section id="items">
+
+    <div class="item">
+        <h3 class="titlee">שרשראות</h3>
+        <img src="/nek.jpg" alt="שרשראות">
+        <p>Description of item 1.</p>
+        <button onclick="addToCart('Item 1')">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <h3 class="titlee">צמידים</h3>
+        <img src="/tsamid.jpg" alt="צמידים">
+        <p>Description of item 2.</p>
+        <button onclick="addToCart('Item 2')">Add to Cart</button>
+    </div>
+
+    <div class="item">
+        <h3 class="titlee">טבעות</h3>
+        <img src="/ring.jpg" alt="טבעות">
+        <p>Description of item 3.</p>
+        <button onclick="addToCart('Item 3')">Add to Cart</button>
+    </div>
+</section>
+
+
+    
+    <script src="nav.js"></script>
+</body>
+
+</html>
