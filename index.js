@@ -6,8 +6,8 @@ function addToCart(item) {
 }
 
 function addToCart(itemName) {
-  // הוספת הפריט לסל
-  var cartItem = document.createElement("div");
-  cartItem.textContent = itemName;
-  document.getElementById("cart-items").appendChild(cartItem);
+  var cartItems = document.getElementById('cart-items');
+  var li = document.createElement('li');
+  li.textContent = itemName;
+  cartItems.appendChild(li);
 }
