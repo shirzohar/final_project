@@ -220,3 +220,18 @@ button:hover {
 .ring-card:nth-child(3):hover .preview-image {
     background-image: url(ring6.jpg);
 }
+
+.ring-card:nth-child(4):hover .preview-image {
+    background-image: url(ring8.jpeg);
+    width: 70%;
+}
+
+.ring-card:nth-child(5):hover .preview-image {
+    background-image: url(ring10.jpeg);
+
+}
+
+.ring-card:nth-child(6):hover .preview-image {
+    background-image: url(ring12.jpg);
+
+}
