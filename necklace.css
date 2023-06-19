@@ -1,21 +1,22 @@
-.banner {
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 
+.banner {
+    width: 100%;
+    height: 100vh;
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(backimage.jpg);
     background-size: cover;
     background-position: center;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
 }
 
 .navbar {
     width: 85%;
     margin: auto;
-    padding: 35px 0;
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,16 +57,14 @@
 
 .content {
     width: 100%;
-    margin: 70px auto 0;
+    margin: 30px auto 0;
     text-align: center;
-
-
     color: #fff;
 }
 
 .content h1 {
     font-size: 70px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 10px;
 }
 
@@ -77,6 +76,8 @@
 }
 
 button {
+    position: relative;
+    overflow: hidden;
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -87,46 +88,24 @@ button {
     background: transparent;
     color: #fff;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
 }
 
 span {
-    background: #e85d9e;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: -1;
+    height: 100%;
+    width: 0;
+    background: #e85d9e;
+    border-radius: 25px;
     transition: 0.5s;
-
+    z-index: -1;
 }
 
 button:hover span {
     width: 100%;
-
 }
 
 button:hover {
     border: none;
-    color: #e85d9e;
-}
-
-.pink-bar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #e85d9e;
-    padding: 5px 0;
-    text-align: center;
-    font-size: 12px;
-    z-index: 9999;
-    opacity: 0.9;
-}
-
-.free-shipping {
-    margin: 0;
 }

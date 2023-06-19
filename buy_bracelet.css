@@ -210,28 +210,28 @@ button:hover {
 }
 
 .ring-card:nth-child(1):hover .preview-image {
-    background-image: url(ring2.jpeg);
+    background-image: url(./braceImage/brace2.jpeg);
 }
 
 .ring-card:nth-child(2):hover .preview-image {
-    background-image: url(ring4.jpeg);
+    background-image: url(./braceImage/brace4.jpg);
 }
 
 .ring-card:nth-child(3):hover .preview-image {
-    background-image: url(ring6.jpg);
+    background-image: url(./braceImage/brace6.jpg);
 }
 
 .ring-card:nth-child(4):hover .preview-image {
-    background-image: url(ring8.jpeg);
+    background-image: url(./braceImage/brace8.jpg);
     width: 70%;
 }
 
 .ring-card:nth-child(5):hover .preview-image {
-    background-image: url(ring10.jpeg);
+    background-image: url(./braceImage/brace10.jpg);
 
 }
 
 .ring-card:nth-child(6):hover .preview-image {
-    background-image: url(ring12.jpg);
+    background-image: url(./braceImage/brace12.jpeg);
 
 }
