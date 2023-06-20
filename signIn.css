@@ -87,7 +87,6 @@ button {
     position: relative;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-    /* צל לבן */
 }
 
 span {
@@ -138,11 +137,10 @@ button:hover {
     transition: .4s ease-in-out;
     opacity: 0.9;
     position: relative;
-    /* הוספתי את המאפיין position */
+
     z-index: 1;
-    /* הזנקתי את ה-element למעלה כדי שהצל יופיע מאחוריו */
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
-    /* הוספתי צל לבן */
+
 }
 
 .field {
@@ -173,8 +171,7 @@ button:hover {
 }
 
 .button1,
-.button2,
-.button3 {
+.button2 {
     padding: 0.5em 1em;
     border-radius: 5px;
     border: none;
@@ -183,6 +180,19 @@ button:hover {
     background-color: #252525;
     color: white;
 }
+
+.button3 {
+    margin-right: -200%;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+    align-content: center;
+}
+
 
 .button1:hover,
 .button2:hover,
@@ -208,16 +218,20 @@ button:hover {
 
 .login {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 1.5em;
     align-items: center;
+    margin-top: 1.5em;
     color: white;
     font-weight: bold;
-    font-size: 18px;
-    font-family: 'Arial', sans-serif;
-    /* שיניתי את סוג הפונט לArial */
     font-size: 24px;
-    /* הוגדלתי את גודל הפונט */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+
+}
+
+.login input {
+    margin-top: 0.5em;
 }
 
 .login a {
@@ -226,10 +240,16 @@ button:hover {
     text-decoration: none;
     margin-left: 0.5em;
     color: white;
-    /* צבע הטקסט */
+
 }
 
 .login a:hover {
     color: #ffffff;
+
+}
+
+.heading {
+    color: white;
+    background-color: white;
 
 }
