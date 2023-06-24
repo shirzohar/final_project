@@ -1,5 +1,4 @@
 .banner {
-
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(backimage.jpg);
     background-size: cover;
@@ -58,8 +57,6 @@
     width: 100%;
     margin: 70px auto 0;
     text-align: center;
-
-
     color: #fff;
 }
 
@@ -101,12 +98,10 @@ span {
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
-
 }
 
 button:hover span {
     width: 100%;
-
 }
 
 button:hover {
@@ -129,4 +124,16 @@ button:hover {
 
 .free-shipping {
     margin: 0;
+}
+
+.fa-shopping-cart {
+    font-size: 24px;
+    color: #e85d9e;
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
 }

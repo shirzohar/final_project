@@ -16,6 +16,7 @@
     text-align: center;
     color: #fff;
     overflow-y: scroll;
+    margin: 0 auto;
 }
 
 .banner-background {
@@ -234,4 +235,16 @@ button:hover {
 .ring-card:nth-child(6):hover .preview-image {
     background-image: url(ring12.jpg);
 
+}
+
+.fa-shopping-cart {
+    font-size: 24px;
+    color: #e85d9e;
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
 }

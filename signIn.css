@@ -253,3 +253,15 @@ button:hover {
     background-color: white;
 
 }
+
+.fa-shopping-cart {
+    font-size: 24px;
+    color: #e85d9e;
+}
+
+.fa-shopping-cart:before {
+    content: "\f07a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-style: normal;
+}
